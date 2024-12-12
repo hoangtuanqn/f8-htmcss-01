@@ -60,7 +60,7 @@ a {
 /* Header */
 .hero-wrap {
     background: #e6f0ff;
-    height: 70vh;
+    height: calc(100vh - 90px);
     position: relative;
 }
 .fixed-header {
