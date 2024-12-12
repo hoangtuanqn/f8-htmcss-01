@@ -14,12 +14,11 @@
     </head>
     <body>
         <main>
-            <!-- Phần đầu trang - Header -->
-            <header class="header">
+            <header class="fixed-header">
                 <div class="content">
                     <nav class="navbar">
                         <!-- Logo -->
-                        <img src="./assets/img/logo.svg" alt="Besnik." />
+                        <a href="#"><img src="./assets/img/logo.svg" alt="Besnik." /></a>
 
                         <!-- Navigation -->
                         <ul>
@@ -36,6 +35,11 @@
                             <a href="#!" class="btn action-btn">Sign Up</a>
                         </div>
                     </nav>
+                </div>
+            </header>
+            <!-- Phần đầu trang - Header -->
+            <div class="hero-wrap">
+                <div class="content">
                     <div class="hero">
                         <div class="info">
                             <p class="sub-title">Welcome to Besnik Agency</p>
@@ -50,7 +54,7 @@
                     </div>
                     <img src="./assets/img/hero-img.svg" alt="Discover a place you'll love to live." class="hero-img" />
                 </div>
-            </header>
+            </div>
 
             <!-- Clients -->
             <div class="clients">
@@ -405,8 +409,13 @@
                         </div>
                     </div>
                     <div class="row">
-                        <img src="./assets/img/logo.svg" alt="Besnik." />
-                        <address>Copyright 2020.com, All rights reserved.</address>
+                        <a href="#"><img src="./assets/img/logo.svg" alt="Besnik." /></a>
+                        <address>
+                            &copy; 2024 by
+                            <a class="atc-link-footer" href="https://github.com/hoangtuanqn" target="_blank"
+                                >Pham Hoang Tuan</a
+                            >. All rights reserved.
+                        </address>
                     </div>
                 </div>
             </footer>
