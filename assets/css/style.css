@@ -508,6 +508,8 @@ tag {
     margin-top: 90px;
 }
 .subscription .body {
+    display: flex;
+    align-items: center;
     position: relative;
     height: 370px;
     border-radius: 20px;
@@ -519,9 +521,9 @@ tag {
     font-weight: 600;
 }
 .subscription .info {
-    width: 671px;
-    max-width: 100%;
+    width: 50%;
     padding: 110px 80px;
+    box-sizing: content-box;
 }
 .subscription .desc {
     margin-top: 15px;
@@ -542,7 +544,7 @@ tag {
 }
 .subscription .image {
     position: absolute;
-    right: 231px;
+    left: calc(50% + 180px);
     bottom: 0;
 }
 .footer {
